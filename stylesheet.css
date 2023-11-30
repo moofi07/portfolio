@@ -29,5 +29,31 @@ body
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    
+
+}
+.navbar a
+{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url('./wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
 }
