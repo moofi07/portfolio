@@ -44,7 +44,7 @@ body
     margin-left: 35px;
     transition: .3s;
     opacity: 0;
-    animation: slideTop ,Ss ease forwards;
+    animation: fadeIn  ease forwards;
 }
 .navbar a:hover{
     color: rgb(27, 143, 151);
